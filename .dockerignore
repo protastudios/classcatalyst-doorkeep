@@ -1,0 +1,8 @@
+.circleci
+.git
+.github
+.terraform
+spec
+tmp
+!tmp/.keep
+log

@@ -1,0 +1,11 @@
+common: &defaults
+  name: <%= "#{Rails.application.class.name} (#{ENV['SCOUT_ENV'] || Rails.env})" %>
+
+test:
+  monitor: false
+
+development:
+  monitor: false
+
+production:
+  monitor: true

@@ -1,0 +1,9 @@
+---
+en:
+  user_mailer:
+    confirm_email:
+      subject: Please confirm your email
+    password_reset:
+      subject: Password Reset Request
+    private_beta_invite:
+      subject: Welcome to the CHANGEME Private Beta
